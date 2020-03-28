@@ -1,8 +1,121 @@
-h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: aqua;
+h1 {
+  font-family: 'Audiowide', cursive;
+  margin: auto;
+  font-size: 50px;
 }
-#main-div{
+
+#main-div {
+  margin: auto;
+}
+
+.nav-wrapper {
+  margin: auto 200px;
+}
+
+#header-logo {
+  height: 200px;
+  /* For browsers that do not support gradients */
+
+}
+
+#header-logo {
+  height: 100px;
+  width: 100px;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url("https://www.jakpost.travel/imgfiles/full/33/331779/4k-white-wallpaper.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#myVideo {
+  width: 50%;
+}
+
+
+
+
+.navbar-brand {
+  display: flex;
+}
+#header-nav{
+  
+}
+
+
+body,
+html {
+  height: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 80%;
+  transform: translate(-80%, -90%);
+  color: black;
+  font-size: 100px;
+  font-family: 'Orbitron', sans-serif;
+  margin: 10px;
+  margin-top: 150px;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+#mini-work{
+  display: flex;
+}
+.work{
+  width: 20%;
+  margin: 100px; 
+}
+
+.work-card{
+  margin: 20px; 
+  display: flex;
+}
+
+#card-img{
+  width: 100%;
+}
+.card{
+  margin: 5px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .nav-wrapper {
     margin: auto;
-    
+  }
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-80%, -90%);
+    color: black;
+    font-size: 60px;
+    font-family: 'Orbitron', sans-serif;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #mini-work{
+    flex-direction: column;
+  }
+  .work-card{
+    flex-direction: column;
+  }
+
 }
