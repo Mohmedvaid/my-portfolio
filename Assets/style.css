@@ -76,7 +76,7 @@ html {
   background-color: white;
   padding: 20px 150px;
   display: flex;
-  background-color: chartreuse;
+  background-color: #fff1f1;
 }
 
 #mini-work {
@@ -157,6 +157,20 @@ html {
   .work{
     text-align: center;
     margin: 10px auto;
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("https://i.pinimg.com/originals/f2/c3/ae/f2c3aec4d3cee9dc5df95c25c5455cb9.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
 }
