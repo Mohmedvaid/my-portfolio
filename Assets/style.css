@@ -48,9 +48,8 @@ h1 {
 .navbar-brand {
   display: flex;
 }
-#header-nav{
-  
-}
+
+#header-nav {}
 
 
 body,
@@ -72,25 +71,44 @@ html {
   padding: 10px;
 }
 
-#mini-work{
+
+.about {
+  background-color: white;
+  padding: 20px 150px;
   display: flex;
-}
-.work{
-  width: 20%;
-  margin: 100px; 
+  background-color: chartreuse;
 }
 
-.work-card{
-  margin: 20px; 
+#mini-work {
+  display: flex;
+  padding: 2px 50px;
+}
+
+.work {
+  margin: 10px;
+  margin-top: 100px;
+  font-family: 'Audiowide', cursive;
+  font-size: 50px;
+}
+
+.work-card {
+  margin: 20px;
   display: flex;
 }
 
-#card-img{
+#card-img {
   width: 100%;
 }
-.card{
+
+.card {
   margin: 5px;
 }
+
+.about-img{
+  width: 100%;
+  height: auto;
+}
+
 
 
 
@@ -104,23 +122,41 @@ html {
   .nav-wrapper {
     margin: auto;
   }
+
   .centered {
     position: absolute;
     top: 40%;
-    left: 70%;
+    left: 50%;
     transform: translate(-80%, -90%);
     color: black;
     font-size: 60px;
     font-family: 'Orbitron', sans-serif;
     margin: 10px;
+    margin-top: 100px;
+    margin-left: 80px;
     padding: 10px;
   }
-
+  
   #mini-work{
     flex-direction: column;
+    padding: 0;
+    height: 950px;
   }
   .work-card{
     flex-direction: column;
+  }
+  .about{
+    flex-direction: column;
+    padding: 0 20px;
+    margin-top: 100px;
+  }
+  .about-img{
+    width: 100%;
+    height: auto;
+  }
+  .work{
+    text-align: center;
+    margin: 10px auto;
   }
 
 }
