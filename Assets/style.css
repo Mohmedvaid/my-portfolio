@@ -61,7 +61,7 @@ html {
 .centered {
   position: absolute;
   top: 40%;
-  left: 80%;
+  left: 50%;
   transform: translate(-80%, -90%);
   color: black;
   font-size: 100px;
