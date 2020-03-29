@@ -42,7 +42,11 @@ h1 {
   width: 50%;
 }
 
+#video {
+  display: flex;
+  margin: 1px 20px;
 
+}
 
 
 .navbar-brand {
@@ -76,7 +80,8 @@ html {
   background-color: white;
   padding: 20px 150px;
   display: flex;
-  background-color: #fff1f1;
+  background-color: white;
+  margin: 1px 20px;
 }
 
 #mini-work {
@@ -86,10 +91,18 @@ html {
 
 .work {
   margin: 10px;
-  margin-top: 100px;
-  font-family: 'Audiowide', cursive;
+  margin-top: 10px;
+  font-family: 'Sen', sans-serif;
   font-size: 50px;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
 }
+
+#about-me {
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+}
+
 
 .work-card {
   margin: 20px;
@@ -104,10 +117,23 @@ html {
   margin: 5px;
 }
 
-.about-img{
-  width: 100%;
+.about-img {
   height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px 1px 30px 1px;
+  margin: 2px white;
+  padding: 10px;
+  width: 70%;
+  border: 2px;
+
 }
+
+#myVideo {
+  width: 50%;
+  margin: 5px;
+  padding: 5px;
+}
+
 
 
 
@@ -121,6 +147,15 @@ html {
 @media (max-width: 768px) {
   .nav-wrapper {
     margin: auto;
+  }
+  #myVideo {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  #video{
+    flex-direction: column;
   }
 
   .centered {
@@ -136,25 +171,31 @@ html {
     margin-left: 80px;
     padding: 10px;
   }
-  
-  #mini-work{
+
+  #mini-work {
     flex-direction: column;
     padding: 0;
     height: 1040px;
+    margin: 1px 70px;
   }
-  .work-card{
+
+  .work-card {
     flex-direction: column;
   }
-  .about{
+
+  .about {
     flex-direction: column;
     padding: 0 20px;
     padding-top: 100px;
+    margin: 1px 20px;
   }
-  .about-img{
+
+  .about-img {
     width: 100%;
     height: auto;
   }
-  .work{
+
+  .work {
     text-align: center;
     margin: 10px auto;
   }
@@ -162,10 +203,10 @@ html {
   .parallax {
     /* The image used */
     background-image: url("https://i.pinimg.com/originals/f2/c3/ae/f2c3aec4d3cee9dc5df95c25c5455cb9.jpg");
-  
+
     /* Set a specific height */
     min-height: 500px;
-  
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
