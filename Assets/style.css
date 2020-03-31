@@ -181,6 +181,14 @@ html {
   margin: auto;
 }
 
+.container-footer{
+  text-align: center;
+}
+
+.page-footer{
+  margin-top: 10px;
+}
+
 
 
 
