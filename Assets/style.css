@@ -189,6 +189,9 @@ html {
   margin-top: 10px;
 }
 
+.resume{
+  padding: 10px;
+}
 
 
 
@@ -204,9 +207,7 @@ html {
   .nav-wrapper {
     margin: auto;
   }
-  .sidenav-overlay {
-    /* background-color: transparent; */
-  }
+
   .sidenav-overlay{
     display: none;
   }
