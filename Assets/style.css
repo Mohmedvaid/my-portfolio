@@ -92,12 +92,12 @@ html {
   margin-top: 10px;
   font-size: 50px;
   text-align: center;
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Orbitron', sans-serif;
 }
 
 #about-me {
   text-align: center;
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Orbitron', sans-serif;
 }
 
 
@@ -239,7 +239,7 @@ html {
   }
 
   #contact-para {
-    font-family: 'Rock Salt', cursive;
+    font-family:'Orbitron', sans-serif;
     margin: auto;
     font-size: 20px;
     text-align: center;
