@@ -192,6 +192,11 @@ html {
 .resume{
   padding: 10px;
 }
+.footer-icons{
+  padding: 0 10px 0 10px;
+}
+
+
 
 
 
@@ -277,7 +282,7 @@ html {
   #mini-work {
     flex-direction: column;
     padding: 0;
-    height: 700px;
+    /* height: 700px; */
 
   }
 
@@ -315,8 +320,8 @@ html {
     background-size: cover;
   }
 
-  #main-work{
+  /* #main-work{
     height: 1100px;
-  }
+  } */
 
 }
