@@ -196,6 +196,10 @@ html {
   padding: 0 10px 0 10px;
 }
 
+canvas{
+  margin: 30px;
+
+}
 
 
 
@@ -320,8 +324,6 @@ html {
     background-size: cover;
   }
 
-  /* #main-work{
-    height: 1100px;
-  } */
+  
 
 }
